@@ -4,7 +4,7 @@ FROM jmcabrera/dock-java8
 
 WORKDIR /
 
-RUN wget -nv http://apache.websitebeheerjd.nl/incubator/ignite/1.0.0/ignite-fabric-1.0.0-incubating.zip \
+RUN wget -nv http://mirrors.ircam.fr/pub/apache//incubator/ignite/1.0.0/ignite-fabric-1.0.0-incubating.zip \
  && unzip -q ignite-fabric-1.0.0-incubating.zip \
  && rm -f ignite-fabric-1.0.0-incubating.zip
 
